@@ -5,17 +5,42 @@ body {
     padding: 0;
     font-family: 'Roboto Mono' ;
     background: #333;
+    color: #ccc;
 }
 
 main {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
 }
 
 section {
+    margin-top: 10%;
+}
+
+/* h1 {
+    padding-bottom: .5%;
+    border-bottom: 5px solid #ccc;
+} */
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+article {
+    padding-top: 5%;
 
 }
 
-h1 {
-    color: #ccc;
+.git-start {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+.git-start:nth-of-type(2) {
+    margin-top: 55px;
 }
